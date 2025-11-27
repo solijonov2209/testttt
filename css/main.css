@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+.list{
+  list-style: none;
+  padding-left: 100px;
+  padding-top: 60px;
+ 
+  margin: 0;
+  display: flex;
+gap: 40px;
+}
+.item{
+width: 100px;
+background-color: rgb(253, 172, 172);
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+
+
+}
+/* 2n - juft o'rindagilarini oladi  */
+/* 2n+1 toq o'rindagilarni  */
+/* .item:nth-child(5){
+  background-color: yellowgreen;
+} */
+
+/* .item:last-child{
+  background-color: yellowgreen;
+} 
+.item:first-child{
+  background-color: yellowgreen;
+} */
+
+/* .item:not(:nth-child(2)){
+  background-color: yellowgreen;
+} */
+
+/* .item:not(:nth-child(2)){
+  background-color: yellowgreen;
+} */
+
+
+
